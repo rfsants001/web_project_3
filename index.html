@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Project 3</title>
+</head>
+<body>
+    <section class="header-master">
+        <header>
+            <div class="container">
+                <div class="logo"></div>
+                <nav>
+                    <ul>
+                        <li>
+                            <span></span>
+                            <a href="">Invisalign</a>
+                        </li>
+                        <li>
+                            <span></span>
+                            <a href="">Benefics</a>
+                        </li>
+                        <li>
+                            <span></span>
+                            <a href="">Can I use ?</a>
+                        </li>
+                        <li>
+                            <span></span>
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-phone">
+                    <span>(48) 3222-6591</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <div class="content-header">
+            <div class="container">
+                <div class="text-aside">
+                    <h2>
+                        Your <b>perfect smile</b>  through <br> a discret and 
+                        inovation tratament, in <b>Florianópolis.</b>
+                    </h2>
+                    <p>
+                        Align your teeth with confort,
+                        practicality and liberty! <br>
+                        <b> Register your e-mail </b> to Dr. Leda, contact you and schedule a free evaluation 
+                    </p>
+                    <form>
+                        <input type="email" name="email" id="email">
+                        <input type="submit" value="submit">
+                    </form>
+                    <span>
+                        Or call for Clinica Monguilhott (48) 3222-6591
+                    </span>
+                </div>
+                <div class="img-aside">
+                    <img src="images/round_images/circle01.png" alt="">
+                    <img src="images/round_images/circle02.png" alt="">
+                    <img src="images/round_images/circle03.png" alt="">
+                    <img src="images/round_images/circle04.png" alt="">
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        $('nav a').hover(function(){
+            $('nav li').removeClass('selected');
+            $(this).parent().addClass('selected');
+        })
+    </script>
+</body>
+</html>
