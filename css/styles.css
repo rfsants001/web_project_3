@@ -193,6 +193,84 @@ section.differentials > .container {
     margin-bottom: 15px;
 }
 
+.about > .container {
+    max-width: 1500px;
+}
+
+.about-container {
+    float: left;
+    width: 50%;
+    padding: 10px 50px;
+}
+
+.about-container img {
+    max-width: 100%;
+}
+
+.about-container h2 {
+    font-size: 30px;
+    margin: 10px 0;
+    color: #a9c4b8;
+    font-weight: normal;
+}
+
+.about-container h2 b {
+    color: #03ca9f;
+}
+
+.about-container p {
+    color: black;
+}
+
+.testimonials {
+    width: 100%;
+    min-height: 300px;
+    padding: 200px 0 100px 0;
+    background-image: url('../images/bg_02.png');
+    background-size: cover;
+    text-align: center;
+    color: #2d2d2d;
+}
+
+.testimonials h2{
+    font-size: 29px;
+    font-weight: normal;
+}
+
+.testimonials p {
+    font-size: 15px;
+}
+
+.steps {
+    padding: 40px 0;
+}
+
+.steps h2 {
+    text-align: center;
+    color: #3b3e42;
+}
+
+.steps__content {
+    float: left;
+    width: 50%;
+}
+
+.steps__group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.steps__group img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.steps__group p {
+    
+}
+
 @media screen and (max-width: 900px) {
     section.header-master {
         min-height: 400px;
@@ -230,5 +308,13 @@ section.differentials > .container {
     .single-differentials {
         width: 100%;
         text-align: center;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .about-container {
+        padding: 0;
     }
 }   
